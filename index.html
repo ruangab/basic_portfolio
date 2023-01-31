@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Ruan Gabriel</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">
+                list = <b>{</b>
+                    "name"<b>:</b>Portifólio
+                    <b>}</b>
+            </div>
+            <!-- <div class="nav-itens">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Habilidades</a></li>
+            </div> -->
+            <div class="itens">
+                <!-- <div class="nav-itens">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                </div> -->
+                <a href="#" class="itens-list">Sobre</a>
+                <a href="#" class="itens-list">Habilidades</a>
+                <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                <a href="#"><i class="fab fa-github github"></i></a>
+                <a href="#"><i class="fab fa-instagram instagram"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <div class="tam">
+                    <h1>Eu sou<br><span class="multitext"></span></h1>
+                </div>
+            </div>
+
+            <div class="cols cols1">
+                <div class="imagebox">
+                    <img id="user" src="image.jpg" alt="">
+                    <img src="efect.jpg" alt="">
+                </div>
+            </div>
+            <!-- <h1>Eu sou Editor</h1> -->
+            <!-- <h1>Eu sou design</h1> -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+        var effecttext = new Typed(".multitext",{
+            strings:["Programador", "Back-end", "Front-end"],
+            loop: true,
+            typeSpeed:100,
+            backSpeed:80,
+            blackDeLay:1500
+        })
+    </script>
+    
+</body>
+</html>
